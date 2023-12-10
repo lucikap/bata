@@ -1,1 +1,5 @@
-There are no commands waiting to be executed.
+#!/bin/sh
+
+time=$(date +'%m月%d日%H时%M分')
+
+logger "【$time】正行执行，没有发现问题"
