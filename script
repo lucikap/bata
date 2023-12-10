@@ -1,4 +1,4 @@
-#!/bin/sh \n
-\n
-current_time=$(date +'%m月%d日%H时%M分')\n
-logger "【$current_time】OK！"\n
+#!/bin/sh
+
+current_time=$(date +'%m月%d日%H时%M分')
+logger "【$current_time】OK！"
